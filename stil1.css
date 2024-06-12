@@ -1,0 +1,51 @@
+/* CSS Document */
+body {
+		font-family: "Open Sans", sans-serif;
+		background-image: url("Slike/1.jpg");
+		background-size: cover;
+		background-attachment: fixed;
+		margin-bottom: 100px;
+	h1 {
+		color: #7da1bf;
+		font-family: "Georgia", sans-serif;
+		font-size: 40px;
+	}
+	h2 {
+		color: #263a69;
+		background-color: white;
+		padding:10px;
+		margin-top: 50px;
+		margin-bottom: 20px;
+		}
+	p {
+		font-size: 20px;
+		width: 80%;
+        margin: 0 auto 50px auto
+	}
+ul  {	/*centriranje width: 400px;*/
+		padding:20px; 
+		margin-left: auto; 
+		margin-right:auto;
+		list-style-type: none;
+		border-radius: 15px;
+		display: flex;
+		justify-content: center;
+	} 
+li  {	display:inline;
+			background-color:#7da1bf;
+			padding:20px;
+			border: 2px solid #263a69;
+			margin: 10px;
+			border-radius: 10px;
+	}
+li:active {background-color:white;}
+		
+li a {	color:white; 
+			font-family: "Open Sans", sans-serif; 
+			text-transform: uppercase;
+	}
+li a:link {text-decoration:none;}
+li a:hover {text-decoration:underline;}
+center {
+	margin-top: 50px;
+	}
